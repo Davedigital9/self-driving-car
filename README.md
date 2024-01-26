@@ -22,6 +22,20 @@ A crucial feature of the simulation is the ability to save the most effective br
 
 To experience the self-driving car simulation live, open the code on the web. Interact with the simulation, save the optimal brain configuration, and observe the continuous improvement of the car's autonomous capabilities.
 
+## Project Structure
+index.html: Connects all JavaScript files together and provides the interface for the live simulation.
+JavaScript Files:
+car.js: Defines the car object and its behavior within the simulation.
+controls.js: Manages user input controls and interactions with the simulation.
+network.js: Implements the neural network responsible for decision-making in the self-driving car.
+road.js: Handles the representation and behavior of the road within the simulation.
+main.js: Contains the core logic for the self-driving car, including the integration of various components.
+sensor.js: Implements sensors to capture and process environmental data for the neural network.
+utils.js: Houses utility functions and helper methods used across different parts of the simulation.
+visualizer.js: Manages the visual representation of the simulation, aiding in debugging and analysis.
+Style and Visualization:
+styles.css: Provides styling to enhance the visual representation of the simulation
+
 ## Implementation Details (main.js excerpt)
 
 Within the `main.js` file, you'll find the following code snippet:
